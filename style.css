@@ -1,0 +1,220 @@
+ /*foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooottttttttttteeeeeeer*/
+   
+.row p{
+    color: #999;
+    line-height: 25px;
+}
+
+.row h2,h3{
+    color:#fff;
+    display: block;
+    margin-top: 0px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    text-rendering: optimizeLegibility;
+    color: #202020;
+    font-family: "ITC Caslon No 224",serif;
+    font-weight: 939;
+    font-style: normal;
+    text-transform: initial;
+    letter-spacing: 0px;
+}
+
+.footer-top h2{
+    font-size:24px;
+}
+
+.footer-top{
+    background: #111;
+    padding: 50px 0px 12px 0px;
+    width: 100%;
+}
+
+.segment-one img {
+    margin: -107px 0px -145px -66px;
+    font-size: 3rem;
+    height: 327px;
+    width: 372px;
+}
+
+.segment-one h3{
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    letter-spacing: 4px;
+    margin: 13px 0 2px;
+
+}
+.segment-one p {
+    color: #999;
+    line-height: 25px;
+}
+
+.segment-two h2{
+    color: #fff;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.segment-two h2:before{
+content: '|';
+color: #a4152c;
+padding-right: 10px;
+}
+
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.segment-three h2{
+    color: #fff;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.segment-three h2:before{
+    content: '|';
+    color: #a4152c;
+    padding-right: 10px;
+}
+
+.segment-three a{
+    background: #494848;
+    width:40px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+    
+}
+.segment-four p{
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+
+}
+
+.segment-four h2{
+    color: #fff;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+
+.segment-four h2:before{
+    content: '|';
+    color: #a4152c;
+    padding-right: 10px;
+}
+
+ .segment-four form input[type=email] {
+    border: 2px solid #f2f2f2;
+    border-radius: 2px;
+    padding: 2px 0px;
+    font-size: 2vh;
+    line-height: 0.5;
+}
+
+ .subnew {
+    height: 27px;
+    width: 118px;
+    color: #fff;
+    margin: 11px -67px 4px -1px;
+    font-size: 16px;
+    background-color: #24e8a8;
+    border: 2px solid #24e8a8;
+    transition: background-color 650ms;
+}
+
+ 
+  .segment-four .newsletter__submit:hover{
+    color:#fff;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+.Newlettre1{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    margin-top: 30px;
+    color: #fff;
+    font-family: 'Courgette', cursive;
+    font-size: 1.9vh;
+}
+.footer-bottom-logo{
+    font-family: "ITC Caslon No 224",serif;
+    font-size: 2.1vh;
+}
+
+/*Responsive cas*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1010px){
+
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+
+    .footer-top{
+        margin: 0px;
+    }
+
+
+}
+                      /*foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooottttttttttteeeeeeer*/
+
+                      /**************************** fire ***************************/
+ 
+
+
+span{
+    
+  background-image: url('images.jpg');
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  -webkit-animation: fire 5s linear infinite;
+  animation: fire 5s linear infinite;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+@keyframes fire{
+    0%{background-position: 0% -50%;}
+    0%{background-position: 100% -50%;}
+}
